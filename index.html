@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <script src="https://kit.fontawesome.com/78d7d58a82.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital - Fast Food</title>
+    <link rel="stylesheet" href="src/estilo/styles.css">
+</head>
+<body>
+
+    <header>
+        <h2>BURGERS FAST FOOD </h2>
+        <img src="src/imagens/buger_taetheway-removebg-preview.png" alt="" width="110px" height="110px"> 
+    </header>
+
+    <section class="menu">
+        <h2>Hambúrgueres</h2>
+        <div class="menu-item">
+            <img src="src/imagens/hamburguer-classico.jpg" alt="Hambúrguer Clássico" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="burger1" class="item-checkbox" data-name="Hambúrguer Clássico" data-price="20.00">
+                <label for="burger1">Hambúrguer Clássico</label>
+                <p>Delicioso hambúrguer 120g no pão brioche, queijo, alface e tomate.
+                </p>
+                <span>R$ 20,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+            <img src="src/imagens/bacon_cheddar.jpg" alt="Hambúrguer Bacon e Cheddar" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="burger2" class="item-checkbox" data-name="Hambúrguer Bacon e Cheddar" data-price="30.00">
+                <label for="burger2">Hambúrguer Bacon e Cheddar</label>
+                <p> Com os mesmos acompanhamentos do Clássico mas com bacon e cheddar.</p>
+                <span>R$ 30,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+            <img src="src/imagens/bacon_cheddar.jpg" alt="Hambúrguer Duplo" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="burger3" class="item-checkbox" data-name="Hambúrguer Clássico" data-price="38.00">
+                <label for="burger3">Hambúrguer Duplo</label>
+                <p> Hambúrguer com o dobro de crane e queijo.</p>
+                <span>R$ 38,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+        </div>
+
+        <h2>Entradas</h2>
+        <div class="menu-item">
+            <img src="src/imagens/coxinha.jpg" alt="Coxinha" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="salgado1" class="item-checkbox" data-name="Coxinha" data-price="7.00">
+                <label for="salgado1">Coxinha</label>
+                <p>Salgado de frango com catupiry, crocante e delicioso.</p>
+                <span>R$ 6,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+        <img src="src/imagens/bolinha de queijo.jpg" alt="Bolinha de Queijo" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="salgado2" class="item-checkbox" data-name="bolinha de quiejo" data-price="12.00">
+                <label for="salgado2">Bolinha de Queijo</label>
+                <p>Porção com 15 bolinhas deliciosas de quiejo.</p>
+                <span>R$ 12,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+            <img src="src/imagens/batata.jpg" alt="Bata com Cheddar e Bacon" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="salgado3" class="item-checkbox" data-name="Batata" data-price="16.00">
+                <label for="salgado2">Batata frita com Cheddar e Queijo</label>
+                <p>Porção de batata com bastante quejo e bacon. Serve duas pessoas.</p>
+                <span>R$ 16,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+        </div>
+
+        <h2>Bebidas</h2>
+        <div class="menu-item">
+            <img src="src/imagens/refrigerante.jpg" alt="Refrigerante" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="bebida1" class="item-checkbox" data-name="Refrigerante" data-price="6.00">
+                <label for="bebida1">Refrigerante</label>
+                <p>Escolha entre Coca-Cola, Pepsi, ou Guaraná.</p>
+                <span>R$ 6,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+            <img src="src/imagens/suco.jpg" alt="Suco" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="bebida2" class="item-checkbox" data-name="Suco" data-price="9.00">
+                <label for="bebida2">Suco</label>
+                <p>Escolha entre as várias opções de sucos.<p>
+                <span>R$ 9,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+            <img src="src/imagens/milkshake.jpg" alt="Milkshake" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="bebida2" class="item-checkbox" data-name="Milkshake" data-price="15.00">
+                <label for="bebida2">Milkshake </label>
+                <p>Escolha entre as opções: Ovomaltine, Morango, Nutela e Oreo.</p>
+                <span>R$ 15,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+        </div>
+
+        <h2>Sobremesas</h2>
+        <div class="menu-item">
+            <img src="src/imagens/sorvete_brownie.jpg" alt="Sorvete com Brownie" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="sobremesa1" class="item-checkbox" data-name="Sorvete com Brownie" data-price="12.00">
+                <label for="sobremesa2">Sorvete com Brownie</label>
+                <p>Sorvete de baunilha com Brownie</p>
+                <span>R$ 12,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+            </div>
+            <img src="src/imagens/brigadeiro.jpg" alt="Brigadeiro" class="item-image">
+            <div class="item-details">
+                <input type="checkbox" id="sobremesa2" class="item-checkbox" data-name="Brigadeiro" data-price="10.00">
+                <label for="sobremesa2">Brigadeiro</label>
+                <p> Porção com 10 brigadeiros da casa.<p>
+                <span>R$ 10,00</span>
+                <input type="number" min="1" value="1" class="item-quantity">
+        </div>
+    </section>
+
+    <section class="cart">
+        <h2>Carrinho de Compras</h2>
+        <div id="cart-items"></div>
+        <p>Total: R$ <span id="total-price">0.00</span></p>
+        <button id="add-more">Adicionar Mais Itens</button>
+        <button id="checkout">Finalizar Pedido</button>
+    </section>
+
+    <section class="checkout" id="checkout-section" style="display:none;">
+        <h2>Finalização do Pedido</h2>
+        <form id="checkout-form">
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" required>
+
+            <label for="address">Endereço:</label>
+            <input type="text" id="address" required>
+
+            <h3>Opções de Pagamento:</h3>
+            <label><input type="radio" name="payment" value="cartao" required> Cartão (Débito ou Crédito)</label>
+            <label><input type="radio" name="payment" value="pix"> Pix</label>
+
+            <h3>Resumo do Pedido</h3>
+            <div id="order-summary"></div>
+            <p>Total: R$ <span id="final-total-price">0.00</span></p>
+
+            <button type="submit">Confirmar Pedido</button>
+            <button type="button" id="cancel-order">Cancelar Pedido</button>
+        </form>
+    </section>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
